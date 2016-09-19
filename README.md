@@ -11,6 +11,7 @@ Free Simple OpenSource CMS for blogs or news sites.
 2) Integrated VK Comments  
 3) Category system  
 4) HTML tags work in articles  
+5) Integrated WYSIWYG editor
 
 Created by Andry Kvart and vk.com/pro100senchik.   
 GitHub: https://github.com/SLNETAIGA/boot-up
