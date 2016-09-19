@@ -15,7 +15,7 @@
             <input type="text" name="title" id="title" placeholder="Name of the news" required autofocus maxlength="255" value="<?php echo htmlspecialchars( $results['article']->title )?>" />
 <br>
             <label for="summary">News Summary</label>
-            <textarea name="summary" id="summary" placeholder="Brief description of the news" required maxlength="1000" style="height: 5em;"><?php echo htmlspecialchars( $results['article']->summary )?></textarea>
+            <textarea name="summary" id="summary" placeholder="Brief description of the news" required maxlength="1000" style="height: 10em; width: 20em;"><?php echo htmlspecialchars( $results['article']->summary )?></textarea>
 <br>
             <label for="content">News Content</label>
             <textarea name="content" id="content" placeholder="The HTML content of the news" required maxlength="100000" style="height: 30em; width: 50em;"><?php echo htmlspecialchars( $results['article']->content )?></textarea>

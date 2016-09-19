@@ -1,5 +1,10 @@
 <?php include "templates/include/header.php" ?>
 <?php include "templates/admin/include/header.php" ?>
+<script>
+	bkLib.onDomLoaded(function() {
+	new nicEditor({iconsPath : '/templates/js/nicEditorIcons.gif'}).panelInstance('description');
+});
+</script>
 <style type="text/css">
    .table { cursor: pointer; }
   </style>
