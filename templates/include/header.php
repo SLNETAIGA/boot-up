@@ -4,6 +4,13 @@
     <title><?php echo htmlspecialchars( $results['pageTitle'] )?></title>
 <!-- Bootstrap style -->
     <link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.min.css" />
+<script type="text/javascript" src="/templates/js/nicEdit.js"></script>
+<script type="text/javascript">
+	bkLib.onDomLoaded(function() {
+	new nicEditor({iconsPath : '/templates/js/nicEditorIcons.gif'}).panelInstance('content'); 
+	new nicEditor({iconsPath : '/templates/js/nicEditorIcons.gif'}).panelInstance('summary');
+});
+</script>
 	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
